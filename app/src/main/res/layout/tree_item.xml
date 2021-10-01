@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="32dp">
+
+    <View
+        android:id="@+id/selector_color"
+        android:layout_width="16dp"
+        android:layout_height="match_parent" />
+
+    <View
+        android:id="@+id/arrow_click_area"
+        android:layout_marginStart="16dp"
+        android:layout_width="24dp"
+        android:layout_height="match_parent"/>
+
+    <ImageView
+        android:id="@+id/arrow"
+        android:layout_width="8dp"
+        android:layout_height="8dp"
+        android:layout_gravity="center_vertical|start"
+        android:layout_marginStart="24dp"
+        android:src="@drawable/down_arrow" />
+
+    <LinearLayout
+        android:id="@+id/node_layout"
+        android:layout_marginStart="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/node_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:layout_gravity="center_vertical|start"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/node_text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical|start"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+
+</FrameLayout>

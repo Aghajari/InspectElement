@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Inspect</string>
+    <string name="author">Amir Hossein Aghajari</string>
+    <string name="desc">I will help you to inspect other applications at runtime by only one click on the floating X-Ray view. I\'m using AccessibilityService, so you have to enable me on the settings before an inspection.</string>
+</resources>
